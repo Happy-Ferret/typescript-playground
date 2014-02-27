@@ -10,3 +10,8 @@ contributions are also welcome.
 
 Install from https://addons.mozilla.org/en-US/firefox/addon/typescript-playground/
 or drag <code>typescript-playground.xpi</code> to Firefox's Add-on Manager.
+
+# Use
+
+Simply find a TypeScript sample, select the code, right click the selection and 
+click on "TypeScript to JavaScript". That was easy.

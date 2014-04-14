@@ -1,3 +1,5 @@
-self.on( 'click', function () {
-    self.postMessage( encodeURIComponent( getSelection().toString() ) );
-});
+function postPlaygroundURL() {
+  self.postMessage( encodeURIComponent( getSelection().toString() ) );
+}
+
+self.on( 'click', postPlaygroundURL );
